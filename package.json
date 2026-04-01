@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "tutorial for intro to backend",
+  "homepage": "https://github.com/falvarado-back/INTRO-TO-BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/falvarado-back/INTRO-TO-BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falvarado-back/INTRO-TO-BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "JavierAlvarado",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
+}
